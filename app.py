@@ -110,6 +110,6 @@ demo = gr.Interface(
     description="Upload your transaction Excel file to explore key business insights!"
 )
 
-demo
-
+if __name__ == "__main__":
+    demo.launch()
 
