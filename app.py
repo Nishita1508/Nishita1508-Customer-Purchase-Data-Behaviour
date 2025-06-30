@@ -110,8 +110,6 @@ demo = gr.Interface(
     description="Upload your transaction Excel file to explore key business insights!"
 )
 
-demo.launch(share=True)
-
-# demo.launch(server_port=7861)  # or any other unused port
+demo
 
 
